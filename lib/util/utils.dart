@@ -9,3 +9,4 @@ p(message) {
 }
 
 const BLUE_DOT = "🔵";
+const BLUE_HEART = '💙';
