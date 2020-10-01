@@ -8,5 +8,12 @@ p(message) {
   }
 }
 
-const BLUE_DOT = "🔵";
-const BLUE_HEART = '💙';
+const BLUE_DOT = "🔵 ";
+const BLUE_HEART = '💙 ';
+const PINK_FLOWER = '🌸 ';
+const YELLOW_FLOWER = '🌼 ';
+const FERN = '🌿 ';
+const APPLE = '🍏 ';
+const PEACH = '🍊 ';
+const PEAR = '🍐 ';
+const ERROR = '👿 ';

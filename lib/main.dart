@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobilewallet/util/fb_util.dart';
 import 'package:mobilewallet/util/stellar_lib.dart';
 
 import 'util/utils.dart';
@@ -41,8 +42,10 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<void> _ping() async {
+    await FireBaseUtil.initialize();
+    var isLoggedIn = FireBaseUtil.isUserLoggedIn();
     await StellarUtility.ping();
-    p('StellarUtility has returned from ping ........');
+    p('$PINK_FLOWER $PINK_FLOWER _MyHomePageState: .... has returned from ping; $FERN logged in: $isLoggedIn ........');
     setState(() {
       _counter++;
     });

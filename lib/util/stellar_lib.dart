@@ -5,11 +5,10 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 ///Handles all Stellar related tasks
 ///
 class StellarUtility {
-  static var client = http.Client();
-
   static var isLoaded = false;
+  static var client = http.Client();
   static Future<void> ping() async {
-    p("$BLUE_DOT starting new Stellar ping ...");
+    p("$BLUE_DOT ... starting new Stellar ping ...");
 
     var url = await getUrl();
     var suffix = 'ping';
@@ -17,9 +16,9 @@ class StellarUtility {
       var uriResponse = await client.get('$url$suffix');
       var statusCode = uriResponse.statusCode;
       var body = uriResponse.body;
-      p("$BLUE_HEART RESPONSE from ping at $url statusCode: $statusCode body: $body ...");
-    } finally {
-      client.close();
+      p("$BLUE_HEART RESPONSE from ping at $url $YELLOW_FLOWER statusCode: $statusCode $PINK_FLOWER body: $body ...");
+    } catch (e) {
+      p(e);
     }
   }
 
