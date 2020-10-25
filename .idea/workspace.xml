@@ -1,36 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="ChangeListManager">
+    <list default="true" id="9ac9857c-b62a-4bb6-91fc-b1b0a071c3b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/chf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/euro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/euro2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gbp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/stellar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/usd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/yuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/wallet/dashboard_desktop.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/wallet/dashboard_mobile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/wallet/dashboard_tablet.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/wallet/wallet_dashboard.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/mobilewallet_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/mobilewallet_android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/fb_util.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/stellar_lib.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/utils.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobilewallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mobilewallet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="HT79S1A03826" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="stateless_widget" />
+        <option value="animated_widget" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iMh83MCCe0swTvNDkogbw1dVD4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bfn_mobile_library_repo/lib/ui/supplier/purchase_orders" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/ui/wallet" />
+      <recent name="$PROJECT_DIR$/../bfn_mobile_library_repo/lib/ui/signin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../bfn_mobile_library_repo/lib/ui/supplier/purchase_orders" />
+      <recent name="$PROJECT_DIR$/lib/ui/wallet" />
+      <recent name="$PROJECT_DIR$/../bfn_mobile_library_repo/lib/ui/signin" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ac9857c-b62a-4bb6-91fc-b1b0a071c3b1" name="Default Changelist" comment="" />
+      <created>1601723206063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601723206063</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1438" y="430" key="#com.intellij.ide.util.MemberChooser" timestamp="1603426833818">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state x="1438" y="430" key="#com.intellij.ide.util.MemberChooser/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603426833818" />
+    <state x="1363" y="461" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603390440490">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state x="1363" y="461" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603390440490" />
+    <state width="2144" height="624" key="GridCell.Tab.0.bottom" timestamp="1603634690639">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state width="2144" height="624" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603634690639" />
+    <state width="2144" height="624" key="GridCell.Tab.0.center" timestamp="1603634690638">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state width="2144" height="624" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603634690638" />
+    <state width="2144" height="624" key="GridCell.Tab.0.left" timestamp="1603634690638">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state width="2144" height="624" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603634690638" />
+    <state width="2144" height="624" key="GridCell.Tab.0.right" timestamp="1603634690639">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state width="2144" height="624" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603634690639" />
+    <state width="905" height="684" key="XDebugger.FullValuePopup" timestamp="1603423945423">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state width="905" height="684" key="XDebugger.FullValuePopup/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603423945423" />
+    <state x="1274" y="328" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603643758101">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state x="1274" y="328" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603643758101" />
+    <state x="1327" y="453" width="596" height="508" key="find.popup" timestamp="1603384250868">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state x="1327" y="453" width="596" height="508" key="find.popup/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603384250868" />
+    <state x="185" y="251" key="new project wizard" timestamp="1601753946637">
+      <screen x="0" y="23" width="2560" height="1377" />
+    </state>
+    <state x="185" y="251" key="new project wizard/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1601753946637" />
   </component>
 </project>

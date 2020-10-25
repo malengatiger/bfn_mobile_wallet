@@ -1,8 +1,8 @@
+import 'package:bfnlibrary/ui/signin/signin.dart';
+import 'package:bfnlibrary/util/fb_util.dart';
 import 'package:flutter/material.dart';
-import 'package:mobilewallet/util/fb_util.dart';
-import 'package:mobilewallet/util/stellar_lib.dart';
-
-import 'util/utils.dart';
+import 'package:mobilewallet/ui/wallet/wallet_dashboard.dart';
+import 'package:page_transition/page_transition.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,11 +14,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.pink,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'BFN Wallet'),
     );
   }
 }
@@ -38,50 +39,48 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   initState() {
     super.initState();
-    _ping();
+    _checkUserLoggedIn();
   }
 
-  Future<void> _ping() async {
+  void _checkUserLoggedIn() async {
     await FireBaseUtil.initialize();
-    var isLoggedIn = FireBaseUtil.isUserLoggedIn();
-    await StellarUtility.ping();
-    p('$PINK_FLOWER $PINK_FLOWER _MyHomePageState: .... has returned from ping; $FERN logged in: $isLoggedIn ........');
-    setState(() {
-      _counter++;
-    });
+    var isLoggedIn = await FireBaseUtil.isUserLoggedIn();
+    if (isLoggedIn) {
+      Navigator.push(
+        context,
+        PageTransition(
+          type: PageTransitionType.scale,
+          alignment: Alignment.topLeft,
+          duration: Duration(seconds: 1),
+          child: WalletDashboard(),
+        ),
+      );
+    } else {
+      Navigator.push(
+        context,
+        PageTransition(
+          type: PageTransitionType.scale,
+          alignment: Alignment.topLeft,
+          duration: Duration(seconds: 1),
+          child: Signin(),
+        ),
+      );
+    }
   }
+
+  // Future<void> _ping() async {
+  //   var isLoggedIn = await FireBaseUtil.isUserLoggedIn();
+  //   await StellarUtility.ping();
+  //   p('$PINK_FLOWER $PINK_FLOWER _MyHomePageState: .... '
+  //       'has returned from ping; $FERN logged in: $isLoggedIn ........');
+  //   Net.ping();
+  //
+  // }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'I have called ping ...',
-            ),
-            SizedBox(
-              height: 24,
-            ),
-            Text(
-              '$_counter',
-              style: TextStyle(
-                  fontSize: 66,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.indigo),
-            ),
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _ping,
-        tooltip: 'Ping',
-        child: Icon(Icons.deck_rounded),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+    return Container(
+      color: Colors.teal,
     );
   }
 }
