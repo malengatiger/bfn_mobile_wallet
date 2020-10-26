@@ -1,7 +1,7 @@
 import 'package:bfnlibrary/ui/signin/signin.dart';
+import 'package:bfnlibrary/ui/wallet/wallet_dashboard.dart';
 import 'package:bfnlibrary/util/fb_util.dart';
 import 'package:flutter/material.dart';
-import 'package:mobilewallet/ui/wallet/wallet_dashboard.dart';
 import 'package:page_transition/page_transition.dart';
 
 void main() {
