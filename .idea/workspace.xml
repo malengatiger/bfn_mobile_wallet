@@ -19,15 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ac9857c-b62a-4bb6-91fc-b1b0a071c3b1" name="Default Changelist" comment="🍊  added api queries">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="9ac9857c-b62a-4bb6-91fc-b1b0a071c3b1" name="Default Changelist" comment="🍊  refactored sign in process">
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/wallet/dashboard_desktop.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/wallet/dashboard_mobile.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/wallet/dashboard_tablet.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/wallet/wallet_dashboard.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603644157915</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="🍊  refactored sign in process">
+      <created>1603678391115</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603678391116</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,7 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="  added api queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="  added api queries" />
+    <MESSAGE value="  refactored sign in process" />
+    <option name="LAST_COMMIT_MESSAGE" value="  refactored sign in process" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1438" y="430" key="#com.intellij.ide.util.MemberChooser" timestamp="1603426833818">
@@ -116,38 +118,38 @@
       <screen x="0" y="23" width="2560" height="1377" />
     </state>
     <state x="1363" y="461" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603390440490" />
-    <state width="1968" height="336" key="GridCell.Tab.0.bottom" timestamp="1603676848951">
+    <state width="1968" height="643" key="GridCell.Tab.0.bottom" timestamp="1603682770434">
       <screen x="0" y="23" width="2560" height="1377" />
     </state>
-    <state width="1968" height="336" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603676848951" />
-    <state width="1968" height="336" key="GridCell.Tab.0.center" timestamp="1603676848951">
+    <state width="1968" height="643" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603682770434" />
+    <state width="1968" height="643" key="GridCell.Tab.0.center" timestamp="1603682770433">
       <screen x="0" y="23" width="2560" height="1377" />
     </state>
-    <state width="1968" height="336" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603676848951" />
-    <state width="1968" height="336" key="GridCell.Tab.0.left" timestamp="1603676848950">
+    <state width="1968" height="643" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603682770433" />
+    <state width="1968" height="643" key="GridCell.Tab.0.left" timestamp="1603682770433">
       <screen x="0" y="23" width="2560" height="1377" />
     </state>
-    <state width="1968" height="336" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603676848950" />
-    <state width="1968" height="336" key="GridCell.Tab.0.right" timestamp="1603676848951">
+    <state width="1968" height="643" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603682770433" />
+    <state width="1968" height="643" key="GridCell.Tab.0.right" timestamp="1603682770434">
       <screen x="0" y="23" width="2560" height="1377" />
     </state>
-    <state width="1968" height="336" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603676848951" />
-    <state x="355" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603644161089">
+    <state width="1968" height="643" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603682770434" />
+    <state x="355" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603678417528">
       <screen x="0" y="23" width="2560" height="1377" />
     </state>
-    <state x="355" y="428" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603644161089" />
+    <state x="355" y="428" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603678417528" />
     <state width="905" height="684" key="XDebugger.FullValuePopup" timestamp="1603423945423">
       <screen x="0" y="23" width="2560" height="1377" />
     </state>
     <state width="905" height="684" key="XDebugger.FullValuePopup/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603423945423" />
-    <state x="1274" y="328" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603676456685">
+    <state x="1274" y="328" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603683446226">
       <screen x="0" y="23" width="2560" height="1377" />
     </state>
-    <state x="1274" y="328" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603676456685" />
-    <state x="1327" y="453" width="692" height="508" key="find.popup" timestamp="1603668208811">
+    <state x="1274" y="328" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603683446226" />
+    <state x="1327" y="453" width="692" height="508" key="find.popup" timestamp="1603678207971">
       <screen x="0" y="23" width="2560" height="1377" />
     </state>
-    <state x="1327" y="453" width="692" height="508" key="find.popup/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603668208811" />
+    <state x="1327" y="453" width="692" height="508" key="find.popup/-1920.23.1920.1057/0.23.2560.1377@0.23.2560.1377" timestamp="1603678207971" />
     <state x="185" y="251" key="new project wizard" timestamp="1601753946637">
       <screen x="0" y="23" width="2560" height="1377" />
     </state>
